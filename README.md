@@ -21,8 +21,8 @@ Installation
 
     Copy code
 
-    `git clone https://github.com/yourusername/face_id_verification.git
-    cd face_id_verification`
+    `git clone https://github.com/yourusername/face_id_verification.git`
+    `cd face_id_verification`
 
 2.  Install required dependencies:
 
@@ -103,7 +103,6 @@ How to Use
 
     Copy code
 
-    `results, verified = verify(model=siamese_network, detection_treshold=0.5, verification_treshold=0.5)
-    print(f"Verification result: {'Success' if verified else 'Failure'}")`
+    `results, verified = verify(model=siamese_network, detection_treshold=0.5, verification_treshold=0.5)`
+    `print(f"Verification result: {'Success' if verified else 'Failure'}")`
 
-* 
